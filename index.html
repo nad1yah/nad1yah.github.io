@@ -1,78 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nadiyah Ahmad - Personal Webpage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #ff6f61;
-            margin-bottom: 20px;
-        }
-
-        p {
-            margin-bottom: 20px;
-        }
-
-        .interests {
-            margin-top: 30px;
-        }
-
-        .interests h2 {
-            color: #ff6f61;
-        }
-
-        .interests ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .interests li {
-            margin-bottom: 10px;
-        }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nadiyah Ahmad — Product Manager</title>
+<meta name="description" content="Nadiyah Ahmad — Product Manager. WashU grad, Cigna PM/SWE, NSBE builder." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container">
-        <header>
-            <h1>Nadiyah Ahmad</h1>
-            <p>Sophomore | Computer Science & Psychology Double Major</p>
-            <p>Passionate about the intersection of computers and humans, and creating code that uplifts people.</p>
-            <p>Interested in a career that combines technology and teaching.</p>
-        </header>
-        <section class="interests">
-            <h2>Interests</h2>
-            <ul>
-                <li>Computer Science</li>
-                <li>Psychology</li>
-                <li>Creating code for social good</li>
-                <li>Teaching</li>
-                <li>Making jewelry</li>
-                <li>Designing houses in Minecraft</li>
-            </ul>
-        </section>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<nav class="sidenav" id="sidenav">
+  <div class="sidenav-mark">N.A.</div>
+  <ul>
+    <li><a href="#bio" class="nav-link" data-index="01">Bio</a></li>
+    <li><a href="#resume" class="nav-link" data-index="02">Resume</a></li>
+    <li><a href="#portfolio" class="nav-link" data-index="03">Portfolio</a></li>
+    <li><a href="#contact" class="nav-link" data-index="04">Contact</a></li>
+  </ul>
+</nav>
+
+<button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+  <span></span><span></span><span></span>
+</button>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <p class="eyebrow">// product management portfolio</p>
+    <h1>Nadiyah Ahmad</h1>
+    <p class="hero-sub">Product Manager building systems out of real gaps — not case studies invented for a portfolio.</p>
+    <div class="hero-meta">
+      <span>St. Louis, MO</span>
+      <span class="dot">·</span>
+      <span>Open to APM &amp; Product Apprenticeship roles</span>
     </div>
+  </section>
+
+  <!-- BIO -->
+  <section class="block" id="bio">
+    <div class="block-head">
+      <span class="index-tag">01</span>
+      <h2>Bio</h2>
+    </div>
+    <div class="block-body">
+      <p class="lede">Product Manager and recent WashU grad, B.A. in Psychological &amp; Brain Sciences with minors in Computer Science and African &amp; African American Studies. Two summers at Cigna across software engineering and product management. Former NSBE chapter president who builds tools to fix real gaps, not just talk about them.</p>
+      <p>My background sits at an odd, useful intersection: I understand how people actually behave (psych), I can build the thing myself when nobody else will (CS), and I've led an organization where "someone should fix this" only meant something if I was the one doing it (NSBE). That's the lens every project below comes through — a real gap, real users, and a shipped fix.</p>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="block" id="resume">
+    <div class="block-head">
+      <span class="index-tag">02</span>
+      <h2>Resume</h2>
+    </div>
+    <div class="block-body">
+      <ul class="resume-list">
+        <li>
+          <div class="resume-row">
+            <span class="resume-org">The Cigna Group</span>
+            <span class="resume-role">Product Manager Intern</span>
+            <span class="resume-date">Summer 2025</span>
+          </div>
+        </li>
+        <li>
+          <div class="resume-row">
+            <span class="resume-org">The Cigna Group</span>
+            <span class="resume-role">Software Engineer Intern</span>
+            <span class="resume-date">Summer 2024</span>
+          </div>
+        </li>
+        <li>
+          <div class="resume-row">
+            <span class="resume-org">NSBE — Washington University in St. Louis</span>
+            <span class="resume-role">Chapter President</span>
+            <span class="resume-date">2025 – 2026</span>
+          </div>
+        </li>
+        <li>
+          <div class="resume-row">
+            <span class="resume-org">Washington University in St. Louis</span>
+            <span class="resume-role">Computer Science Teaching Assistant</span>
+            <span class="resume-date">3 years</span>
+          </div>
+        </li>
+        <li>
+          <div class="resume-row">
+            <span class="resume-org">Microsoft TEALS</span>
+            <span class="resume-role">Volunteer, CS Education</span>
+            <span class="resume-date"></span>
+          </div>
+        </li>
+        <li>
+          <div class="resume-row">
+            <span class="resume-org">Washington University in St. Louis</span>
+            <span class="resume-role">B.A. Psychological &amp; Brain Sciences · Minors: CS, African &amp; African American Studies</span>
+            <span class="resume-date">Graduated May 2026, GPA 3.89, College Honors</span>
+          </div>
+        </li>
+      </ul>
+      <a class="resume-download" href="#">↓ Download full resume (PDF)</a>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="block" id="portfolio">
+    <div class="block-head">
+      <span class="index-tag">03</span>
+      <h2>Portfolio</h2>
+    </div>
+    <div class="block-body">
+      <p class="lede">Case studies from systems I've built and interfaces I've studied. Each one follows the same discipline: define the real problem, define who it actually hurts, and defend the trade-off in the fix.</p>
+
+      <!-- GROUP: NSBE SYSTEMS -->
+      <div class="proj-group">
+        <h3 class="group-title">NSBE Systems</h3>
+        <p class="group-intro">As president and, before that, an active e-board member of our university's NSBE chapter, I built a handful of internal tools to close gaps I kept watching stall out our operations — funding appeals with no clear process, tasks with no owner or tracking, and mentorship opportunities with no way to connect people. None of these had a budget or a dev team behind them. Just a problem, a deadline, and whatever I could ship fast enough to actually get used.</p>
+
+        <article class="proj">
+          <div class="proj-top">
+            <span class="proj-num">3.1</span>
+            <h4>Funding Appeal Automation</h4>
+            <span class="proj-tag">flagship</span>
+          </div>
+          <p class="proj-teaser">Before this existed, funding appeals lived in scattered email chains with no deadline, no owner clarity, and no way to track a decision back to the person who needed it. I built the system that fixed it — used 40+ times, still active.</p>
+          <details>
+            <summary>Read full case study</summary>
+            <div class="case">
+              <p><strong>Problem/Context.</strong> Only the president or treasurer could submit a funding appeal to admin, but the information going into that form could come from anyone hosting an event — programs chair, social chair, pre-collegiate initiatives chair. None of them had seen the actual form. There was no deadline for getting information to the treasurer, so appeals sometimes hit admin's deadline with no time left to fix issues, or missed it outright. Everything lived in scattered email chains and half-finished docs. No tracking, no structure.</p>
+              <p><strong>Users &amp; Stakeholders.</strong> The treasurer felt it most directly — my VP had been treasurer the year before, the same year our chapter was first allowed to submit appeals at all, so she was building the muscle from zero. Event hosts were frustrated going back and forth with no clear ask. Our membership felt the impact too, since appeals fund the events they show up for.</p>
+              <p><strong>Goals/Success Criteria.</strong> A system where anyone hosting an event could submit what admin actually needed, on time, without understanding the treasurer's process first. Success looked like fewer denied appeals, less manual back-and-forth, and less dependence on one overwhelmed person.</p>
+              <p><strong>Design &amp; Trade-offs.</strong> My VP and I targeted this the summer before the semester started. We built a form that fed directly into what the treasurer needed to submit, backed by a one-page process diagram, a live demo, and written documentation. There wasn't another tool to weigh against this — the alternative was nothing. The real trade-off wasn't which platform to use, it was how much friction we could remove without adding a new bottleneck.</p>
+              <p><strong>Outcome/Impact.</strong> Adopted and customized by users to fit their own needs. Used at least 40 times. Our appeal success rate went up significantly, and we appealed successfully for a second conference we hadn't been able to fund before. Still active today and core to how the chapter runs.</p>
+              <p><strong>What I'd Do Differently.</strong> Build in automatic email notifications on submission, likely by moving off Google Forms/Sheets to something like Airtable or a Notion database. Require a test submission from anyone who can host an event, instead of relying on a demo and documentation alone. Hardcode the deadline logic into the form itself instead of just reminding people it exists.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="proj">
+          <div class="proj-top">
+            <span class="proj-num">3.2</span>
+            <h4>Action Item Tracker</h4>
+          </div>
+          <p class="proj-teaser">As president, I couldn't see what was actually happening across my own board. Built a task dashboard with a standard entry template — 60+ entries logged, and it changed how we ran conference attendance.</p>
+          <details>
+            <summary>Read full case study</summary>
+            <div class="case">
+              <p><strong>Problem/Context.</strong> No system for tracking e-board tasks. Some got assigned interpersonally, some came up in meetings, and nothing lived anywhere afterward.</p>
+              <p><strong>Impact of the Gap.</strong> Tasks fell through the cracks — person A assumed person B had it, two people worked the same task without knowing it, or unclear guidelines meant it got done wrong. A coordination failure, not a motivation problem.</p>
+              <p><strong>Design &amp; Trade-offs.</strong> A dashboard with a standard template for every new task entry, so assigning, tracking, and following up all had one consistent format.</p>
+              <p><strong>Outcome/Impact.</strong> Adopted fast, at least 60 entries logged. Changed how we ran conference attendance — from a full committee to one person owning it, tracked cleanly through the tracker.</p>
+              <p><strong>What I'd Do Differently.</strong> Roll it out earlier. I introduced it later in the year, and our second semester naturally slows down, so it didn't get the full runway it could have.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="proj">
+          <div class="proj-top">
+            <span class="proj-num">3.3</span>
+            <h4>Mentorship Matching</h4>
+          </div>
+          <p class="proj-teaser">No pipeline existed for underclassmen who needed mentorship or upperclassmen willing to give it. Shipped fast — and learned a real lesson about visibility and timing.</p>
+          <details>
+            <summary>Read full case study</summary>
+            <div class="case">
+              <p><strong>Problem/Context.</strong> No mentorship pipeline existed. Underclassmen needing guidance often didn't know they needed it or how to ask. Upperclassmen willing to mentor on specific things had no way to signal that or get matched to it.</p>
+              <p><strong>Users &amp; Stakeholders.</strong> Built with our chapter development chair. Upperclassmen fill out the form to offer mentorship; the resulting database is browsable by all membership.</p>
+              <p><strong>Design &amp; Trade-offs.</strong> We shipped a form feeding a Notion database instead of building a full website interface, prioritizing speed over polish. That trade-off is also what limited it later.</p>
+              <p><strong>Outcome/Impact.</strong> Adoption was lower than we wanted. We couldn't advertise it publicly since it's membership-only, and we built it too late to introduce at our first general body meeting — when visibility matters most.</p>
+              <p><strong>What I'd Do Differently.</strong> Build it earlier, invest real time in internal advertising, and actually build the website interface we originally wanted instead of shipping the minimum version.</p>
+            </div>
+          </details>
+        </article>
+      </div>
+
+      <!-- SOLO: INSTAGRAM -->
+      <div class="proj-group">
+        <article class="proj proj-solo">
+          <div class="proj-top">
+            <span class="proj-num">3.4</span>
+            <h4>Instagram Post Audio Reliability &amp; Control</h4>
+            <span class="proj-tag">PRD-style</span>
+          </div>
+          <p class="proj-teaser">I selected a specific timestamp of a song for an NSBE post. On loop, it reset to the beginning — which happened to contain explicit lyrics, on an org account. A real bug, a real reputational risk, and a case for what ships first.</p>
+          <details>
+            <summary>Read full case study</summary>
+            <div class="case">
+              <p><strong>1. Clarify.</strong> The core problem isn't a single bug — it's that audio on a published post behaves unpredictably and gives the poster no control once it's live. Selecting a timestamp only holds for the first playthrough; on loop, playback resets to the beginning. Separately, if selected audio is removed, the post is left with a disruptive error pop-up and no way to swap or edit audio after publishing.</p>
+              <p><strong>2. Define User.</strong> Primary: anyone posting on behalf of an account with reputational stakes — school orgs, nonprofits, small businesses, brand accounts. Secondary: everyday users who want their curated audio moment to persist.</p>
+              <p><strong>3. Empathize &amp; Pain Points.</strong> I hit this firsthand posting for NSBE — selected a timestamp, uploaded, and only after realized the loop reverts to the song's actual beginning, which contained explicit lyrics. That's a reputational risk for an organization I represent, with zero warning before or after going live. That risk scales further for a business account.</p>
+              <p><strong>4. Brainstorm Solutions.</strong> Fix loop behavior to respect the selected timestamp on every replay. Allow post-publish audio editing. Add a pre-publish full-loop preview. Auto-flag explicit content in the selected segment. Replace the jarring pop-up with a quieter fallback state.</p>
+              <p><strong>5. Prioritize &amp; Deep Dive.</strong> I'd prioritize the loop-timestamp fix as MVP — most contained scope, and it directly addresses the failure mode that caused real harm: a deliberate user choice silently reverted. Post-publish editing is valuable but bigger in scope (new UI, permissions, licensing checks), so I'd treat it as a fast-follow rather than bundle it into the same release.</p>
+              <p><strong>6. Metrics &amp; MVP.</strong> MVP: loop respects the selected timestamp on every replay, no exceptions. Success metrics: reduction in "wrong audio" support reports, decrease in post edits/deletions shortly after publishing, no regression in audio engagement. Target behavior change: users should trust that what they previewed before publishing is exactly what persists after.</p>
+            </div>
+          </details>
+        </article>
+      </div>
+
+      <!-- GROUP: HCD -->
+      <div class="proj-group">
+        <h3 class="group-title">Human-Centered Design: Interface Behavior Studies</h3>
+        <p class="group-intro">In my Human-Computer Interaction course, my team completed two semester-long group projects, each grounded in a different model of human behavior and its impact on interface design. For each project, we applied HCI techniques to redesign a real interface, ran three rounds of user testing on representative tasks, and documented our reasoning in an iterative case study. Grades were tied to both the rigor of our design process and how much real users' performance actually improved.</p>
+
+        <article class="proj">
+          <div class="proj-top">
+            <span class="proj-num">3.5</span>
+            <h4>WUNS Site Redesign — Information Foraging Theory</h4>
+          </div>
+          <p class="proj-teaser">Three rounds of testing on a nursery school site revealed why label tweaks alone can't fix a broken information architecture — and where a real fix needed to go instead.</p>
+          <details>
+            <summary>Read full case study</summary>
+            <div class="case">
+              <p><strong>Problem/Context.</strong> This project applied Information Foraging Theory to a nursery school site redesign. The core issue was information scent — whether a page's labels and cues accurately signal what's actually behind them. A parent looking for the school's discipline policy would follow a strong-seeming trail through Parent Resources → Articles → Books, only to find external parenting theories, not the actual policy buried on page 9 of the Parent Handbook.</p>
+              <p><strong>Users &amp; Stakeholders.</strong> Parents completing real tasks: finding the handbook, submitting admission forms, understanding policy, learning about enrichment programs.</p>
+              <p><strong>Goals/Success Criteria.</strong> Three rounds of user testing against representative tasks, each round's changes evaluated by whether they measurably reduced failure and wasted exploration, not just whether they looked cleaner.</p>
+              <p><strong>Design &amp; Trade-offs.</strong> Round 1 built an affinity graph and made initial scent/label changes. Round 2 testing showed mixed results — some tasks improved, but users kept getting pulled toward mislabeled high-scent options over the correct destination. By Round 2's end, the team explicitly acknowledged the fixes had been "band-aid" solutions and pivoted Round 3's plan toward revisiting the affinity diagram and building contextual navigation instead of more label tweaks.</p>
+              <p><strong>My Role.</strong> Across the three rounds, I helped augment our affinity graph, described current user paths for three of fourteen foraging tasks, built the web behavior graphs and their empathetic narrative descriptions, analyzed testing results each round, and wrote the design rationale documentation, including the full initial design write-up.</p>
+              <p><strong>Outcome/Impact.</strong> Some tasks improved significantly; others never did despite two rounds of changes. That gap was the most useful finding — surface-level fixes can't compensate for a mismatch between internal content organization and how users actually think about their goal.</p>
+              <p><strong>What I'd Do Differently.</strong> Push for the deeper architecture rethink after Round 1, not Round 2. The signs were already there — earlier, more rigorous use of the affinity diagram to test category assumptions would have saved a round of iteration.</p>
+            </div>
+          </details>
+        </article>
+
+        <article class="proj">
+          <div class="proj-top">
+            <span class="proj-num">3.6</span>
+            <h4>File Permissions Interface — Problem-Solving Facets</h4>
+          </div>
+          <p class="proj-teaser">Feedback fixes solved "did my action register." They couldn't solve "I don't understand what inheritance even is" — a distinction that reshaped what we prioritized in Round 3.</p>
+          <details>
+            <summary>Read full case study</summary>
+            <div class="case">
+              <p><strong>Problem/Context.</strong> This project applied a problem-solving facets model — planning, reference, exploration, tinkering — to a file permissions interface. The interface gave users no way to preview a permission change's consequences, no undo, and minimal feedback when something broke.</p>
+              <p><strong>Users &amp; Stakeholders.</strong> Anyone managing shared file access — students, TAs, professors, file owners — approaching the same task through different problem-solving styles.</p>
+              <p><strong>Goals/Success Criteria.</strong> Three rounds of testing against representative tasks, evaluated by whether changes measurably reduced wasted exploration and error.</p>
+              <p><strong>Design &amp; Trade-offs.</strong> Round 1 targeted legibility ("Permissions" labels, renaming "Add" to "Convert"). Round 2 testing showed users found the right starting point but tinkered heavily once inside, so we added a quick-reference table, inline info icons, and a "Source" column. Round 3 testing showed a split outcome: a visual highlight confirming modified permissions nearly solved direct-permission tasks, but a warning icon for inherited-permission removal barely moved the needle — the confusion was conceptual, not a labeling problem.</p>
+              <p><strong>My Role.</strong> In Round 1, I organized our shared working document and set the case study format, then wrote the Behavior-to-Problem-Solving Mapping and Cognitive Walkthrough sections. In Round 2, I wrote the initial design description and formatted the write-up. In Round 3, despite being the sole recipient of user testing results until the day of submission, I fleshed out the cognitive walkthrough using the JSON data and current site state, and formatted the final document.</p>
+              <p><strong>Outcome/Impact.</strong> Direct-permission tasks reached near-perfect scores by Round 3. The inheritance-based task never did, despite two rounds of targeted changes aimed right at it.</p>
+              <p><strong>What I'd Do Differently.</strong> Treat "users don't understand inheritance" as a distinct problem from "users can't tell if their action worked," earlier. That likely needed a visual map of the inheritance hierarchy itself, not another warning icon.</p>
+            </div>
+          </details>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="block" id="contact">
+    <div class="block-head">
+      <span class="index-tag">04</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="block-body">
+      <p class="lede">Open to APM and Product Apprenticeship roles. Reach out about opportunities, referrals, or just to talk product.</p>
+      <div class="contact-links">
+        <a href="mailto:youremail@example.com">Email ↗</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://github.com/yourprofile" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span>Nadiyah Ahmad — 2026</span>
+    <span>Built by hand.</span>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
 </body>
-
 </html>
-
